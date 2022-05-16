@@ -34,8 +34,8 @@ public class xpath {
         //input[@type='password' or @name='password']    =>bir tanesinin dogru olmasi yetiyor.
          //input[@type='password' and @name='password']
          //*[@type='text']      =>      tagName'i ne olursa olsun,attribute(type) ve value(text)'e gore buluyoruz
-        (//*[.='Login'])[3]     =>       icerdigi yazi Login olan tum webElementlere ulasmak icin kullaniyoruz
-        (//span[.='Login'])[2]   =>      icedigi yazi Login olan ve tagNem'i span oln tum WebElementleri bulmamizi saglar
+        (//*[.='Login'])[3]     =>       icerdigi yazi Login olan tum webElementlerin 3. su ulasmak icin kullaniyoruz
+        (//span[.='Login'])[2]   =>      icedigi yazi Login olan ve tagNem'i span oln tum WebElementlerin 2. sini bulmamizi saglar
         //*[contains(text(),'Catalog')]   => icerisinde  "Catalog" gecen tum elementleri bulmamizi saglar
  */
 
